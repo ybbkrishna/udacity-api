@@ -1,0 +1,26 @@
+{
+  "name": "udacity-api",
+  "private": false,
+  "version": "0.1.0",
+  "author": "Ty-Lucas Kelley [tylucaskelley@gmail.com]",
+  "description": "Unofficial client library for Udacity course catalog and users.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tylucaskelley/udacity-api"
+  },
+  "dependencies": {
+    "chai": "^1.9.2",
+    "jshint": "^2.5.6",
+    "mocha": "^1.21.4"
+  },
+  "scripts": {
+    "pretest": "npm install && ./node_modules/.bin/jshint src/",
+    "test": "./node_modules/.bin/mocha test/specs/tests.js"
+  },
+  "jshintConfig": {
+    "node": true,
+    "unused": true,
+    "undef": true
+  }
+}
