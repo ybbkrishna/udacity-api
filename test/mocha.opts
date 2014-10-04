@@ -1,2 +1,2 @@
 --reporter nyan
---timeout 0
+--timeout 5000
