@@ -23,7 +23,7 @@ describe('Udacity API: Catalog Tests', function() {
         it('should throw the correct error when the hostname is incorrect', function(done) {
             cat.info.hostname = 'x';
             cat.all(function(err, data) {
-                expect(err.message).to.equal('getaddrinfo ENOTFOUND x');
+                expect(err.message).to.contain('getaddrinfo ENOTFOUND');
                 done();
             });
         });
