@@ -4,6 +4,8 @@
 
 ---
 
+![build](https://travis-ci.org/tylucaskelley/udacity-api.svg?branch=master)
+    
     ##  ##  #####    ####    #####  ######  ######  ##  ##
     ##  ##  ##   #  ##  ##  ##        ##      ##    ##  ## 
     ##  ##  ##   #  ######  ##        ##      ##     ####
