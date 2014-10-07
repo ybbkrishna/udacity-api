@@ -16,11 +16,12 @@
   },
   "scripts": {
     "pretest": "npm install && ./node_modules/.bin/jshint src/",
-    "test": "./node_modules/.bin/mocha test/specs/tests.js"
+    "test": "./node_modules/.bin/mocha test/specs/*.js"
   },
   "jshintConfig": {
     "node": true,
     "unused": true,
-    "undef": true
+    "undef": true,
+    "expr": true
   }
 }
